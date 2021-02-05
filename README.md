@@ -65,6 +65,12 @@ EFI
     └── config.plist ······················ OpenCore配置文件
 ```
 
+## 使用
+
+参考下图修改
+
+![修改参数](./assert/1.png)
+
 ## 参考
 [mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur](https://github.com/mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur)
 
