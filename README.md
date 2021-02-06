@@ -52,7 +52,7 @@ EFI
     │   ├── LucyRTL8125Ethernet.kext ······ 有线网卡
     │   ├── NVMeFix.kext ·················· 提高非苹果SSD兼容性
     │   ├── SMCProcessor.kext ············· 监控CPU温度
-    │   ├── SMCSuperIO.kext ··············· 监控CPU转速
+    │   ├── SMCSuperIO.kext ··············· 监控风扇转速
     │   ├── USBMap.kext ··················· 手动创建的USB映射
     │   ├── VirtualSMC.kext ··············· 必备
     │   ├── WhateverGreen.kext ············ 必备
