@@ -47,8 +47,7 @@ EFI
     ├── Kexts ····························· 驱动目录
     │   ├── AirportItlwm.kext ············· 板载无线网卡
     │   ├── AppleALC.kext ················· 声卡
-    │   ├── IntelBluetoothFirmware.kext ··· 板载蓝牙
-    │   ├── IntelBluetoothInjector.kext ··· 板载蓝牙
+    │   ├── IntelBluetoothFirmware.kext ··· 板载蓝牙，如果蓝牙开关不显示，加上IntelBluetoothInjector.kext
     │   ├── Lilu.kext ····················· 必备
     │   ├── LucyRTL8125Ethernet.kext ······ 有线网卡
     │   ├── NVMeFix.kext ·················· 提高非苹果SSD兼容性
