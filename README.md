@@ -66,11 +66,13 @@ EFI
 
 ## 使用
 
-参考下图修改
+参考下图修改`EFI/OC/config.plist`
 
 ![修改参数](./assert/1.png)
 
 ## 参考
 [mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur](https://github.com/mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur)
+> 一个配置类似的驱动，介绍详细且简单易懂，适合小白入手
 
-[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
+[OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+> 官方说明书，耐心看，基本上能解决所有问题
