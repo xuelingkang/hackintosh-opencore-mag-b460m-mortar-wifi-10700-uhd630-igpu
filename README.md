@@ -68,7 +68,7 @@ EFI
 
 参考下图修改`EFI/OC/config.plist`
 
-![修改参数](./assert/1.png)
+![修改参数](./assets/1.png)
 
 ## 参考
 [mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur](https://github.com/mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur)
