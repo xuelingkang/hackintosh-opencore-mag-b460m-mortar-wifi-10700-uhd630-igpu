@@ -889,24 +889,6 @@
 				<key>TextMode</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>Name</key>
-				<string>acpidump.efi</string>
-				<key>Comment</key>
-				<string>acpidump.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>acpidump.efi</string>
-				<key>Arguments</key>
-				<string>-b -n DSDT -z</string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
