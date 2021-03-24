@@ -41,8 +41,8 @@ EFI
     │   ├── SSDT-PM.aml ··················· 节能五项补丁
     │   └── SSDT-RHUB.aml ················· 修复丢失的USB接口
     ├── Drivers
+    │   ├── HfsPlus.efi
     │   ├── OpenCanopy.efi
-    │   ├── OpenHfsPlus.efi
     │   └── OpenRuntime.efi
     ├── Kexts ····························· 驱动目录
     │   ├── AirportItlwm.kext ············· 板载无线网卡
