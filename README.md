@@ -2,9 +2,9 @@
 
 ## 系统信息
 
-OpenCore版本：0.6.7
+OpenCore版本：0.6.8
 
-MacOS版本：big sur 11.2.2（可升级11.2.3）
+MacOS版本：big sur 11.2.3
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
@@ -78,3 +78,4 @@ EFI
 
 [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 > 官方说明书，耐心看，基本上能解决所有问题
+
