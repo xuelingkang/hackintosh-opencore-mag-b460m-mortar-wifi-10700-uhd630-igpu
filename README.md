@@ -4,7 +4,7 @@
 
 OpenCore版本：0.6.8
 
-MacOS版本：big sur 11.2.3
+MacOS版本：big sur 11.2.3，可升级big sur 11.3
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
@@ -70,7 +70,7 @@ EFI
 
 参考下图修改`EFI/OC/config.plist`
 
-![修改参数](./assets/1.png)
+![修改参数](https://raw.githubusercontent.com/xuelingkang/assets/master/hackintosh-opencore-mag-b460m-mortar-wifi-10700-uhd630-igpu/config.plist.png)
 
 ## 参考
 [mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur](https://github.com/mrdonkey3/hackintosh-oc-msi-b460m-mortar-i7-10700-big-sur)
