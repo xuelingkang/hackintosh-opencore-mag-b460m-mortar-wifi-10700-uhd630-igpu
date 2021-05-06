@@ -4,7 +4,7 @@
 
 OpenCore版本：0.6.8
 
-MacOS版本：big sur 11.2.3，可升级big sur 11.3
+MacOS版本：big sur 11.3（升级11.3之后前置的两个USB 3.0接口无法使用了，有时间再解决）
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
