@@ -2,7 +2,7 @@
 
 ## 系统信息
 
-OpenCore版本：0.7.0
+OpenCore版本：0.7.1
 
 MacOS版本：big sur 11.4
 
@@ -57,12 +57,11 @@ EFI
     │   ├── SMCSuperIO.kext ··············· 监控风扇转速
     │   ├── USBMap.kext ··················· 手动创建的USB映射
     │   ├── VirtualSMC.kext ··············· 必备
-    │   ├── WhateverGreen.kext ············ 必备
+    │   └── WhateverGreen.kext ············ 必备
     ├── OpenCore.efi
     ├── Resources ························· 引导界面资源
     ├── Tools ····························· 引导界面工具
-    │   ├── OpenShell.efi ················· 必备
-    │   └── acpidump.efi ·················· 导出DSDT工具
+    │   └── OpenShell.efi ················· 必备
     └── config.plist ······················ OpenCore配置文件
 ```
 
