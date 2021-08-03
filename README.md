@@ -2,9 +2,9 @@
 
 ## 系统信息
 
-OpenCore版本：0.7.1
+OpenCore版本：0.7.2
 
-MacOS版本：big sur 11.4
+MacOS版本：big sur 11.5.1
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
