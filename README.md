@@ -1,11 +1,14 @@
 # 微星B460M MORTAR WIFI i7-10700 核显 黑苹果 OpenCore驱动
 
+## 说明
+
+建议使用catalina版本的驱动，前几天觉得bigsur用腻了，打算重新装回catalina版本，发现bigsur版本的驱动只能引导进入系统，不能引导安装，应该是很早之前的版本就开始有这种问题，无奈退回了0.6.6版本OC
+
 ## 系统信息
 
-OpenCore版本：0.7.2
-> 0.7.3和0.7.4连续两个版本没升上去
+OpenCore版本：0.6.6
 
-MacOS版本：big sur 11.5.2
+MacOS版本：catalina 10.15.7
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
