@@ -35,99 +35,9 @@
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
-				<data>FgAAAA==</data>
+				<data>FQAAAA==</data>
 				<key>ports</key>
 				<dict>
-					<key>HS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>AQAAAA==</data>
-						<key>Comment</key>
-						<string>ADDITIONAL USB2 FOR SS01</string>
-					</dict>
-					<key>HS02</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>AgAAAA==</data>
-						<key>Comment</key>
-						<string>ADDITIONAL USB2 FOR SS02</string>
-					</dict>
-					<key>HS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>AwAAAA==</data>
-						<key>Comment</key>
-						<string>ADDITIONAL USB2 FOR SS03</string>
-					</dict>
-					<key>HS05</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>BQAAAA==</data>
-						<key>Comment</key>
-						<string>ADDITIONAL USB2 FOR SS05</string>
-					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>BgAAAA==</data>
-						<key>Comment</key>
-						<string>ADDITIONAL USB2 FOR SS06</string>
-					</dict>
-					<key>HS08</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>CAAAAA==</data>
-						<key>Comment</key>
-						<string>BLUE TOOTH</string>
-					</dict>
-					<key>HS09</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>CQAAAA==</data>
-						<key>Comment</key>
-						<string>BACK END LEFT TOP</string>
-					</dict>
-					<key>HS10</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>CgAAAA==</data>
-						<key>Comment</key>
-						<string>BACK END RIGHT TOP</string>
-					</dict>
-					<key>HS11</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>CwAAAA==</data>
-						<key>Comment</key>
-						<string>FRONT END THIRD AND FOURTH</string>
-					</dict>
-					<key>HS12</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>DAAAAA==</data>
-						<key>Comment</key>
-						<string>UNKNOW</string>
-					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -155,6 +65,15 @@
 						<key>Comment</key>
 						<string>BACK END MIDDLE SINGLE ONE</string>
 					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>10</integer>
+						<key>port</key>
+						<data>FAAAAA==</data>
+						<key>Comment</key>
+						<string>USBC3</string>
+					</dict>
 					<key>SS05</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -164,14 +83,95 @@
 						<key>Comment</key>
 						<string>FRONT END FIRST</string>
 					</dict>
-					<key>SS06</key>
+					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
-						<data>FgAAAA==</data>
+						<data>AQAAAA==</data>
 						<key>Comment</key>
-						<string>FRONT END SECOND</string>
+						<string>ADDITIONAL USB2 FOR SS01</string>
+					</dict>
+					<key>HS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>AgAAAA==</data>
+						<key>Comment</key>
+						<string>ADDITIONAL USB2 FOR SS02</string>
+					</dict>
+					<key>HS03</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>AwAAAA==</data>
+						<key>Comment</key>
+						<string>ADDITIONAL USB2 FOR SS03</string>
+					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>8</integer>
+						<key>port</key>
+						<data>BAAAAA==</data>
+						<key>Comment</key>
+						<string>USBC2</string>
+					</dict>
+					<key>HS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>BQAAAA==</data>
+						<key>Comment</key>
+						<string>ADDITIONAL USB2 FOR SS05</string>
+					</dict>
+					<key>HS08</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>CAAAAA==</data>
+						<key>Comment</key>
+						<string>BLUE TOOTH</string>
+					</dict>
+					<key>HS09</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>CQAAAA==</data>
+						<key>Comment</key>
+						<string>BACK END LEFT TOP</string>
+					</dict>
+					<key>HS10</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>CgAAAA==</data>
+						<key>Comment</key>
+						<string>BACK END RIGHT TOP</string>
+					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>CwAAAA==</data>
+						<key>Comment</key>
+						<string>FRONT END THIRD AND FOURTH</string>
+					</dict>
+					<key>HS12</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>DAAAAA==</data>
+						<key>Comment</key>
+						<string>UNKNOW</string>
 					</dict>
 				</dict>
 			</dict>
