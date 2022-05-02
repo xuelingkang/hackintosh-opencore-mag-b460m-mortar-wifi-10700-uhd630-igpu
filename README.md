@@ -16,7 +16,7 @@ Monterey问题：DP转HDMI输出无信号，HDMI正常
 
 1. 关机后自动重启，解决办法：在BIOS禁用USB唤醒，路径：Settings/Advanced/Wake Up Event Setup/Resume By USB Device，这样会产生另一个问题，鼠标和键盘无法唤醒，但是可以使用电源键唤醒。希望有更优方案的大神分享一下
 2. 双屏幕开机会花屏，解决办法：单屏幕开机完成之后再打开第二个屏幕，如果已经双屏幕开机产生花屏，可以关闭一个屏幕再打开
-3. 不知道从哪个版本开始USB3出了问题，不能识别USB3设备，但是可以识别USB2设备，介意的就不要用这套驱动了
+3. 搬运了大佬的XHCI-unsupported.kext，解决了USB3接口不识别USB3设备的问题，虽然可以用了，但是速度和USB2一样
 
 ## 主要硬件
 
@@ -52,8 +52,9 @@ EFI
     ├── Kexts ····························· 驱动目录
     │   ├── AirportItlwm.kext ············· 板载无线网卡
     │   ├── AppleALC.kext ················· 声卡
-    │   ├── CtlnaAHCIPort.kext ············ 官方介绍建议使用，具体作用不清楚
-    │   ├── IntelBluetoothFirmware.kext ··· 板载蓝牙，如果蓝牙开关不显示，加上IntelBluetoothInjector.kext
+    │   ├── CtlnaAHCIPort.kext ············ 对于Big Sur，代替SATA-unsupported.kext，增加对各种SATA控制器的支持
+    │   ├── IntelBluetoothFirmware.kext ··· 板载蓝牙固件
+    │   ├── IntelBluetoothInjector.kext ··· 支持蓝牙开关
     │   ├── Lilu.kext ····················· 必备
     │   ├── LucyRTL8125Ethernet.kext ······ 有线网卡
     │   ├── NVMeFix.kext ·················· 提高非苹果SSD兼容性
@@ -61,7 +62,8 @@ EFI
     │   ├── SMCSuperIO.kext ··············· 监控风扇转速
     │   ├── USBMap.kext ··················· 手动创建的USB映射
     │   ├── VirtualSMC.kext ··············· 必备
-    │   └── WhateverGreen.kext ············ 必备
+    │   ├── WhateverGreen.kext ············ 必备
+    │   └── XHCI-unsupported.kext ········· 非原生USB控制器，官网说B460不需要，实际上，不加这个驱动就会出现USB3接口不识别USB3设备的问题
     ├── OpenCore.efi
     ├── Resources ························· 引导界面资源
     ├── Tools ····························· 引导界面工具
@@ -83,4 +85,7 @@ EFI
 
 [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 > 官方说明书，耐心看，基本上能解决所有问题
+
+[黑苹果之我跳船了：为何弃用华擎B460M，改换微星迫击炮B460M WIFI](https://post.smzdm.com/p/adwn892k/)
+> 搬运了这个大佬的修改的驱动：XHCI-unsupported.kext
 

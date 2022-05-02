@@ -35,54 +35,9 @@
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
-				<data>FQAAAA==</data>
+				<data>FgAAAA==</data>
 				<key>ports</key>
 				<dict>
-					<key>SS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>EQAAAA==</data>
-						<key>Comment</key>
-						<string>BACK END RIGHT BOTTOM</string>
-					</dict>
-					<key>SS02</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>EgAAAA==</data>
-						<key>Comment</key>
-						<string>BACK END LEFT BOTTOM</string>
-					</dict>
-					<key>SS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>EwAAAA==</data>
-						<key>Comment</key>
-						<string>BACK END MIDDLE SINGLE ONE</string>
-					</dict>
-					<key>SS04</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>10</integer>
-						<key>port</key>
-						<data>FAAAAA==</data>
-						<key>Comment</key>
-						<string>USBC3</string>
-					</dict>
-					<key>SS05</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>FQAAAA==</data>
-						<key>Comment</key>
-						<string>FRONT END FIRST</string>
-					</dict>
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -117,7 +72,7 @@
 						<key>port</key>
 						<data>BAAAAA==</data>
 						<key>Comment</key>
-						<string>USBC2</string>
+						<string>ADDITIONAL USB2 FOR SS04</string>
 					</dict>
 					<key>HS05</key>
 					<dict>
@@ -164,14 +119,59 @@
 						<key>Comment</key>
 						<string>FRONT END THIRD AND FOURTH</string>
 					</dict>
-					<key>HS12</key>
+					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>port</key>
-						<data>DAAAAA==</data>
+						<data>EQAAAA==</data>
 						<key>Comment</key>
-						<string>UNKNOW</string>
+						<string>BACK END RIGHT BOTTOM</string>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>EgAAAA==</data>
+						<key>Comment</key>
+						<string>BACK END LEFT BOTTOM</string>
+					</dict>
+					<key>SS03</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>EwAAAA==</data>
+						<key>Comment</key>
+						<string>BACK END MIDDLE SINGLE ONE</string>
+					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>10</integer>
+						<key>port</key>
+						<data>FAAAAA==</data>
+						<key>Comment</key>
+						<string>USBC3.2</string>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>FQAAAA==</data>
+						<key>Comment</key>
+						<string>FRONT END FIRST</string>
+					</dict>
+					<key>SS06</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>FgAAAA==</data>
+						<key>Comment</key>
+						<string>FRONT END SECOND</string>
 					</dict>
 				</dict>
 			</dict>
