@@ -8,7 +8,11 @@
 | Big Sur 11.6.5   | 0.8.0    |
 | Monterey 12.3.1  | 0.8.0    |
 
-Monterey问题：DP转HDMI输出无信号，HDMI正常
+Monterey问题：
+
+- DP转HDMI输出无信号
+- DP转VGA输出正常，应该是模拟信号的原因，细看有点虚
+- DP和HDMI输出正常
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
