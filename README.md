@@ -13,6 +13,7 @@ Monterey问题：
 - DP转HDMI输出无信号
 - DP转VGA输出正常，应该是模拟信号的原因，细看有点虚
 - DP和HDMI输出正常
+- 开机很慢，应该是三星SSD的问题，参数`SetApfsTrimTimeout`设置为0，禁用trim
 
 可用功能：以太网、wifi、蓝牙、USB映射、节能五项。。。
 
@@ -58,9 +59,10 @@ EFI
     │   ├── AirportItlwm.kext ············· 板载无线网卡，需要与系统版本对应
     │   ├── AppleALC.kext ················· 声卡
     │   ├── CtlnaAHCIPort.kext ············ 对于Big Sur，代替SATA-unsupported.kext，增加对各种SATA控制器的支持
+    │   ├── BlueToolFixup.kext ············ 支持蓝牙开关，Monterey
+    │   ├── IntelBTPatcher.kext ··········· IntelBluetoothFirmwares随附的补丁
     │   ├── IntelBluetoothFirmware.kext ··· 板载蓝牙固件
     │   ├── IntelBluetoothInjector.kext ··· 支持蓝牙开关，Big Sur及以下
-    │   ├── BlueToolFixup.kext ············ 支持蓝牙开关，Monterey
     │   ├── Lilu.kext ····················· 必备
     │   ├── LucyRTL8125Ethernet.kext ······ 有线网卡
     │   ├── NVMeFix.kext ·················· 提高非苹果SSD兼容性
