@@ -6,7 +6,7 @@
 |------------------|----------|
 | Catalina 10.15.7 | 0.6.6    |
 | Big Sur 11.6.5   | 0.8.0    |
-| Monterey 12.4    | 0.8.4    |
+| Monterey 12.4    | 0.8.5    |
 
 Monterey问题：
 
@@ -66,7 +66,9 @@ EFI
     │   ├── Lilu.kext ····················· 必备
     │   ├── LucyRTL8125Ethernet.kext ······ 有线网卡
     │   ├── NVMeFix.kext ·················· 提高非苹果SSD兼容性
+    │   ├── RadeonSensor.kext ············· 被SMCRadeonGPU依赖
     │   ├── SMCProcessor.kext ············· 监控CPU温度
+    │   ├── SMCRadeonGPU.kext ············· 监控AMD显卡温度
     │   ├── SMCSuperIO.kext ··············· 监控风扇转速
     │   ├── USBMap.kext ··················· 手动创建的USB映射
     │   ├── VirtualSMC.kext ··············· 必备
