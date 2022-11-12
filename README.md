@@ -5,7 +5,7 @@
 | MacOS            | OpenCore |
 |------------------|----------|
 | Catalina 10.15.7 | 0.6.6    |
-| Big Sur 11.6.5   | 0.8.0    |
+| Big Sur 11.6.5   | 0.8.6    |
 | Monterey 12.4    | 0.8.6    |
 
 Monterey问题：
@@ -55,7 +55,7 @@ EFI
     ├── Kexts ····························· 驱动目录
     │   ├── AirportItlwm.kext ············· 板载无线网卡，需要与系统版本对应
     │   ├── AppleALC.kext ················· 声卡
-    │   ├── CtlnaAHCIPort.kext ············ 对于Big Sur，代替SATA-unsupported.kext，增加对各种SATA控制器的支持
+    │   ├── CtlnaAHCIPort.kext ············ 对于Big Sur，代替SATA-unsupported.kext，增加对各种SATA控制器的支持，不必要
     │   ├── BlueToolFixup.kext ············ 支持蓝牙开关，Monterey
     │   ├── IntelBTPatcher.kext ··········· IntelBluetoothFirmwares随附的补丁
     │   ├── IntelBluetoothFirmware.kext ··· 板载蓝牙固件
