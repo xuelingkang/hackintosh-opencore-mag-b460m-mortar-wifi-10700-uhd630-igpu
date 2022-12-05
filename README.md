@@ -23,6 +23,25 @@ Monterey问题：
 2. （核显）双屏幕开机会花屏，解决办法：单屏幕开机完成之后再打开第二个屏幕，如果已经双屏幕开机产生花屏，可以关闭一个屏幕再打开
 3. 搬运了大佬的XHCI-unsupported.kext，解决了USB3接口不识别USB3设备的问题，虽然可以用了，但是速度和USB2一样
 
+## alcid
+
+闲着没事把alcid试了一遍，参考[Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
+
+制造商：Realtek，解码器：ALC1200，查主板说明书
+
+| alcid | 16进制 | 状态         |
+|-------|-------|-------------|
+| 1     | 1     | 可用         |
+| 2     | 2     | 可用         |
+| 3     | 3     | 少线路输出选项 |
+| 4     | 4     | 不可用       |
+| 5     | 5     | 不可用       |
+| 7     | 7     | 可用         |
+| 11    | b     | 可用         |
+| 27    | 1b    | 不可用       |
+| 28    | 1c    | 不可用       |
+| 29    | 1d    | 不可用       |
+
 ## 主要硬件
 
 | 配置      | 型号                               |
