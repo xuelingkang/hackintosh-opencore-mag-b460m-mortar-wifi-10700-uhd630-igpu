@@ -5,7 +5,7 @@
 | MacOS            | OpenCore |
 |------------------|----------|
 | Catalina 10.15.7 | 0.6.6    |
-| Big Sur 11.7.1   | 0.8.7    |
+| Big Sur 11.7.4   | 0.8.9    |
 | Monterey 12.4    | 0.8.6    |
 
 Monterey问题：
