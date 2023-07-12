@@ -1234,13 +1234,13 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>替换成GenSMBIOS生成的Board Serial</string>
+			<string>C02952200GULNV9JC</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data>LPBdzLos</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1248,9 +1248,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>替换成GenSMBIOS生成的Serial</string>
+			<string>C02ZW0LJJV3Q</string>
 			<key>SystemUUID</key>
-			<string>替换成GenSMBIOS生成的SmUUID</string>
+			<string>449DBB9F-F694-4442-8A47-C5693E49D0B3</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1398,6 +1398,8 @@
 		<dict>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
+			<key>ConsoleFont</key>
+			<string></string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
@@ -1466,6 +1468,8 @@
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
+			<false/>
+			<key>PciIo</key>
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
